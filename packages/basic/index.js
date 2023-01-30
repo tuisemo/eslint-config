@@ -35,7 +35,7 @@ module.exports = {
   plugins: [
     'html',
     'unicorn',
-    '@doraemon/eslint-config-customize',
+    '@fadedinks',
     'no-only-tests',
     'unused-imports',
   ],
@@ -145,7 +145,7 @@ module.exports = {
     {
       files: ['*.js', '*.cjs'],
       rules: {
-        '@typescript-eslint/no-var-requires': 'off',
+        'no-var-requires': 'off',
       },
     },
     {
@@ -171,12 +171,12 @@ module.exports = {
       // Code blocks in markdown file
       files: ['**/*.md/*.*'],
       rules: {
-        '@typescript-eslint/no-redeclare': 'off',
-        '@typescript-eslint/no-unused-vars': 'off',
-        '@typescript-eslint/no-use-before-define': 'off',
-        '@typescript-eslint/no-var-requires': 'off',
-        '@typescript-eslint/comma-dangle': 'off',
-        '@typescript-eslint/consistent-type-imports': 'off',
+        'no-redeclare': 'off',
+        'no-unused-vars': 'off',
+        'no-use-before-define': 'off',
+        'no-var-requires': 'off',
+        'comma-dangle': 'off',
+        // '@typescript-eslint/consistent-type-imports': 'off',
         'import/no-unresolved': 'off',
         'unused-imports/no-unused-imports': 'off',
         'unused-imports/no-unused-vars': 'off',
@@ -350,8 +350,8 @@ module.exports = {
     'yml/no-empty-document': 'off',
 
     // customize
-    'customize/if-newline': 'error',
-    'customize/import-dedupe': 'error',
+    '@fadedinks/if-newline': 'error',
+    '@fadedinks/import-dedupe': 'error',
     // 'antfu/prefer-inline-type-import': 'error',
   },
 }

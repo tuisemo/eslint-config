@@ -78,6 +78,7 @@ module.exports = {
     }],
     'key-spacing': ['error', { beforeColon: false, afterColon: true }],
     'keyword-spacing': ['error', { before: true, after: true }],
+    'linebreak-style': ['error', 'unix'],
     'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
     'multiline-ternary': ['error', 'always-multiline'],
     'new-cap': ['error', { newIsCap: true, capIsNew: false, properties: true }],

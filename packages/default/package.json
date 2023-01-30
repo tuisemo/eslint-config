@@ -1,12 +1,13 @@
 {
-  "name": "@doraemon/eslint-config",
-  "version": "0.1.0",
-  "description": "",
+  "name": "@fadedinks/eslint-config",
+  "version": "0.1.8",
+  "description": "eslint-config base on @antfu/eslint-config",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "npm publish --access public"
   },
-  "author": "",
+  "author": "tuisemo",
   "files": [
     "index.js"
   ],
@@ -18,7 +19,7 @@
   },
   "license": "ISC",
   "dependencies": {
-    "@doraemon/eslint-config-vue": "workspace:*",
+    "@fadedinks/eslint-config-vue": "workspace:*",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-html": "^7.1.0",
     "eslint-plugin-import": "^2.27.5",
@@ -30,5 +31,9 @@
     "eslint-plugin-yml": "^1.4.0",
     "jsonc-eslint-parser": "^2.1.0",
     "yaml-eslint-parser": "^1.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tuisemo/eslint-config.git"
   }
 }

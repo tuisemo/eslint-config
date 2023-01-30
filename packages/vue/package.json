@@ -1,12 +1,12 @@
 {
-  "name": "@doraemon/eslint-config-vue",
-  "version": "0.1.0",
-  "description": "",
+  "name": "@fadedinks/eslint-config-vue",
+  "version": "0.1.8",
+  "description": "eslint-config base on @antfu/eslint-config",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint . --config=index.js"
   },
-  "author": "",
+  "author": "tuisemo",
   "files": [
     "index.js"
   ],
@@ -18,7 +18,11 @@
   },
   "license": "ISC",
   "dependencies": {
-    "@doraemon/eslint-config-basic": "workspace:*",
+    "@fadedinks/eslint-config-basic": "workspace:*",
     "eslint-plugin-vue": "^9.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tuisemo/eslint-config.git"
   }
 }

@@ -1,8 +1,6 @@
-import { createEslintRule } from '../utils'
-
 export const RULE_NAME = 'if-newline'
 
-export default createEslintRule({
+export default {
   name: RULE_NAME,
   meta: {
     type: 'problem',
@@ -40,4 +38,4 @@ export default createEslintRule({
       },
     }
   },
-})
+}

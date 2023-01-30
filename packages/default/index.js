@@ -1,6 +1,6 @@
 module.exports = {
 	extends: [
-	  '@doraemon/eslint-config-vue',
+	  '@fadedinks/eslint-config-vue',
 	],
   }
   

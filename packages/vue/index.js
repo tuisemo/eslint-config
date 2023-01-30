@@ -5,6 +5,7 @@ module.exports = {
       parser: 'vue-eslint-parser',
       parserOptions: {
         parser: '@babel/eslint-parser',
+        requireConfigFile: false
       },
       rules: {
         'no-unused-vars': 'off',
@@ -14,7 +15,7 @@ module.exports = {
   ],
   extends: [
     'plugin:vue/recommended',
-	'@doraemon/eslint-config-basic',
+    '@fadedinks/eslint-config-basic',
   ],
   rules: {
     'vue/max-attributes-per-line': 'off',
