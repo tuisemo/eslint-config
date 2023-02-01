@@ -4,6 +4,7 @@ module.exports = {
       files: ['*.vue'],
       parser: 'vue-eslint-parser',
       parserOptions: {
+        ecmaVersion: 12,
         parser: '@babel/eslint-parser',
         requireConfigFile: false
       },
@@ -29,7 +30,7 @@ module.exports = {
     'vue/no-setup-props-destructure': 'off',
 
     'vue/component-tags-order': ['error', {
-      order: ['script', 'template', 'style'],
+      order: ['template', 'script', 'style'],
     }],
     'vue/block-tag-newline': ['error', {
       singleline: 'always',

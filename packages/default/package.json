@@ -1,6 +1,6 @@
 {
   "name": "@fadedinks/eslint-config",
-  "version": "0.1.8",
+  "version": "0.1.10",
   "description": "eslint-config base on @antfu/eslint-config",
   "main": "index.js",
   "scripts": {
