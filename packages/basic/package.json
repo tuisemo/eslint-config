@@ -1,6 +1,6 @@
 {
   "name": "@fadedinks/eslint-config-basic",
-  "version": "0.1.8",
+  "version": "0.1.11",
   "description": "eslint-config base on @antfu/eslint-config",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
   "dependencies": {
     "@babel/core": "^7.20.12",
     "@babel/eslint-parser": "^7.19.1",
-    "@fadedinks/eslint-plugin": "workspace:*",
+    "@fadedinks/eslint-plugin": "workspace:^",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-html": "^7.1.0",
     "eslint-plugin-import": "^2.27.5",

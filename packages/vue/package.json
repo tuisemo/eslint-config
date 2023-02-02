@@ -1,6 +1,6 @@
 {
   "name": "@fadedinks/eslint-config-vue",
-  "version": "0.1.10",
+  "version": "0.1.12",
   "description": "eslint-config base on @antfu/eslint-config",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
   },
   "license": "ISC",
   "dependencies": {
-    "@fadedinks/eslint-config-basic": "workspace:*",
+    "@fadedinks/eslint-config-basic": "workspace:^",
     "eslint-plugin-vue": "^9.9.0"
   },
   "repository": {

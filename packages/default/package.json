@@ -1,6 +1,6 @@
 {
   "name": "@fadedinks/eslint-config",
-  "version": "0.1.10",
+  "version": "0.1.12",
   "description": "eslint-config base on @antfu/eslint-config",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,7 @@
   },
   "license": "ISC",
   "dependencies": {
-    "@fadedinks/eslint-config-vue": "workspace:*",
+    "@fadedinks/eslint-config-vue": "workspace:^",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-html": "^7.1.0",
     "eslint-plugin-import": "^2.27.5",
